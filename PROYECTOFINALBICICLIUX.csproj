@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C3C19B7A-C2BB-4DB1-8C73-811F68E6F88B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PROYECTOFINALBICICLIUX</RootNamespace>
+    <AssemblyName>PROYECTOFINALBICICLIUX</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Acerca de Nosotros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Acerca de Nosotros.Designer.cs">
+      <DependentUpon>Acerca de Nosotros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AyBBicicletas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AyBBicicletas.Designer.cs">
+      <DependentUpon>AyBBicicletas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AYBGestionBici.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AYBGestionBici.Designer.cs">
+      <DependentUpon>AYBGestionBici.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AyBPago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AyBPago.Designer.cs">
+      <DependentUpon>AyBPago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BicicletasT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BicicletasT.Designer.cs">
+      <DependentUpon>BicicletasT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBProyectoFinalJaune22DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBProyectoFinalJaune22DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DBProyectoFinalJaune22DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBProyectoFinalJaune22DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DBProyectoFinalJaune22DataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBProyectoFinalJaune22DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DBProyectoFinalJaune22DataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBProyectoFinalJaune22DataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DBProyectoFinalJaune22DataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBProyectoFinalJaune22DataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DBProyectoFinalJaune22DataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBProyectoFinalJaune22DataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DBProyectoFinalJaune22DataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBProyectoFinalJaune22DataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DBProyectoFinalJaune22DataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBProyectoFinalJaune22DataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DBProyectoFinalJauneIDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBProyectoFinalJauneIDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gestion de ventas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gestion de ventas.Designer.cs">
+      <DependentUpon>gestion de ventas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionRenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionRenta.Designer.cs">
+      <DependentUpon>GestionRenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProcesamientoDePago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProcesamientoDePago.Designer.cs">
+      <DependentUpon>ProcesamientoDePago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Visualizador de Gestion bicicletas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visualizador de Gestion bicicletas.Designer.cs">
+      <DependentUpon>Visualizador de Gestion bicicletas.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Acerca de Nosotros.resx">
+      <DependentUpon>Acerca de Nosotros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AyBBicicletas.resx">
+      <DependentUpon>AyBBicicletas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AYBGestionBici.resx">
+      <DependentUpon>AYBGestionBici.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AyBPago.resx">
+      <DependentUpon>AyBPago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BicicletasT.resx">
+      <DependentUpon>BicicletasT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gestion de ventas.resx">
+      <DependentUpon>gestion de ventas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionRenta.resx">
+      <DependentUpon>GestionRenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcesamientoDePago.resx">
+      <DependentUpon>ProcesamientoDePago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Visualizador de Gestion bicicletas.resx">
+      <DependentUpon>Visualizador de Gestion bicicletas.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DBProyectoFinalJaune22DataSet.xsc">
+      <DependentUpon>DBProyectoFinalJaune22DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DBProyectoFinalJaune22DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DBProyectoFinalJaune22DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBProyectoFinalJaune22DataSet.xss">
+      <DependentUpon>DBProyectoFinalJaune22DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DBProyectoFinalJaune22DataSet1.xsc">
+      <DependentUpon>DBProyectoFinalJaune22DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DBProyectoFinalJaune22DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DBProyectoFinalJaune22DataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBProyectoFinalJaune22DataSet1.xss">
+      <DependentUpon>DBProyectoFinalJaune22DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DBProyectoFinalJaune22DataSet2.xsc">
+      <DependentUpon>DBProyectoFinalJaune22DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DBProyectoFinalJaune22DataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DBProyectoFinalJaune22DataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBProyectoFinalJaune22DataSet2.xss">
+      <DependentUpon>DBProyectoFinalJaune22DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DBProyectoFinalJaune22DataSet3.xsc">
+      <DependentUpon>DBProyectoFinalJaune22DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DBProyectoFinalJaune22DataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DBProyectoFinalJaune22DataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBProyectoFinalJaune22DataSet3.xss">
+      <DependentUpon>DBProyectoFinalJaune22DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DBProyectoFinalJaune22DataSet4.xsc">
+      <DependentUpon>DBProyectoFinalJaune22DataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="DBProyectoFinalJaune22DataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DBProyectoFinalJaune22DataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBProyectoFinalJaune22DataSet4.xss">
+      <DependentUpon>DBProyectoFinalJaune22DataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="DBProyectoFinalJaune22DataSet5.xsc">
+      <DependentUpon>DBProyectoFinalJaune22DataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="DBProyectoFinalJaune22DataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DBProyectoFinalJaune22DataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBProyectoFinalJaune22DataSet5.xss">
+      <DependentUpon>DBProyectoFinalJaune22DataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="DBProyectoFinalJaune22DataSet6.xsc">
+      <DependentUpon>DBProyectoFinalJaune22DataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="DBProyectoFinalJaune22DataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DBProyectoFinalJaune22DataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBProyectoFinalJaune22DataSet6.xss">
+      <DependentUpon>DBProyectoFinalJaune22DataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="DBProyectoFinalJaune22DataSet7.xsc">
+      <DependentUpon>DBProyectoFinalJaune22DataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="DBProyectoFinalJaune22DataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DBProyectoFinalJaune22DataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBProyectoFinalJaune22DataSet7.xss">
+      <DependentUpon>DBProyectoFinalJaune22DataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="DBProyectoFinalJauneIDataSet.xsc">
+      <DependentUpon>DBProyectoFinalJauneIDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DBProyectoFinalJauneIDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DBProyectoFinalJauneIDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBProyectoFinalJauneIDataSet.xss">
+      <DependentUpon>DBProyectoFinalJauneIDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\35c6e364d8ce6b56422323bec1c9dfad-lg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Captura.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\xd.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\xds.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\398922_logo-ALTA-RES.-vertical.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\depositphotos_11688406-stock-photo-olive-green-circle-gradient-background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\hjbvg.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\descargar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\fundidora.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\50580521_2473440356031217_2168273205268054016_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\uhgfds.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\50813467_2473442452697674_1579941180538355712_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ce3ac21ecf92fd57a50c287e57aab368.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\96382008_3827660387275867_215195041398784_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\96364640_3827660257275880_2873688705661403136_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\iouyt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\a898c9eff49d631be3416cc390d33c50.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Carretera.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\electronica.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\MTB.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\tandem.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Urbana.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Aurora.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Nestoe.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Jaime XD.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\png-clipart-electric-bicycle-computer-icons-cycling-bicycle-text-bicycle-frame.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Abici.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\albol.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
